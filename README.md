@@ -14,7 +14,7 @@
   g++ -o main.out main.cc  
   ./main.out xxx.pcap xxx.txt
 - main.sh：执行pcap文件分析程序的脚本，通过遍历文件目录，可以进行目录下所有pcap文件的分析（只能分析单个文件夹下的所有pcap文件）  
-  本脚本文件也有两个参数，分别是pcap文件所在目录、pcap文件的分析结果所在目录。  
+  本脚本文件也有两个参数，分别是pcap文件所在目录、pcap文件的分析结果所在目录  
   运行示例：sh main.sh input/xxx output/xxx
 - start.sh：执行main.sh脚本的脚本，将所有pcap文件通过pcap文件分析程序进行分析
 
